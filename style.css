@@ -36,3 +36,11 @@ body{
   padding: 1rem 0;
   text-align: center;
 }
+/* media query */
+@media (max-width: 480px) {
+  .container {
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 90%;
+  }
+}
